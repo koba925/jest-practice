@@ -1,0 +1,32 @@
+{
+  "name": "jest-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koba925/jest-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koba925/jest-practice/issues"
+  },
+  "homepage": "https://github.com/koba925/jest-practice#readme",
+  "devDependencies": {
+    "semistandard": "^16.0.1"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5"
+  },
+  "semistandard": {
+    "envs": [
+      "jest"
+    ]
+  }
+}
