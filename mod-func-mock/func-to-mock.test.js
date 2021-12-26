@@ -7,7 +7,7 @@ function MockingFunc (a) {
 }
 
 // jest.mock('./func-to-mock', () => MockingFunc);
-jest.mock('./func-to-mock', () => jest.fn().mockImplementation(MockingFunc));
+jest.mock('./func-to-mock', () => jest.fn(MockingFunc));
 const F2M = require('./func-to-mock');
 // Is the module same between files? => yes
 // const F2M = require('./func-to-mock'); // not needed
